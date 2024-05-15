@@ -1,36 +1,44 @@
-# Movie Ticket Booking
-A Basic Movie Ticket Booking System. Best suited for someone who is a beginner in Java full stack development. 
+Certainly! Here's an enhanced version of your README:
+
+---
+
+# Movie Ticket Booking System
+
+Welcome to our Movie Ticket Booking System, a beginner-friendly project aimed at those diving into Java full stack development. This system provides a platform for customers to easily book movie tickets online, offering a seamless experience from movie selection to seat reservation.
 
 ## About
-The Software system is an online movie ticket booking system where customers can book seats according to their preference.<br>
-## Technologies Used
-* SpringBoot
-* Java
-* AngularJS
-* Git
-* HTML
-* CSS
-* Bootstrap
-## Features
-* All active movies are available for booking.
-* Customer can select seat according to their preference.
-* System is validated for smooth functioning.
-## Preview
-<table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/112768196/205480789-a5ff4ac0-6090-49be-b00f-d280084b7e20.png" alt="Your image title" width="250" height="100"/></td>
-    <td><img src="https://user-images.githubusercontent.com/112768196/205480811-b27b0670-ed1d-4623-a5ba-250189b6498e.png" alt="Your image title" width="250" height="100"/></td>
-  </tr>
-</table>
+Our software system simplifies the process of booking movie tickets by providing an intuitive interface for users to browse and select movies, choose their preferred seats, and complete their bookings.
 
-## Database 
-For sample purpose, h2 database(local database) is integrated with the application so that application can run for any user.<br>
-If user want to change the database, they can make relevant changes in "application.properties" file.<br>
-Also, some data is pre-populated for sample purpose<br>
-## Sample data
-* All are below information are for sample purpose.
-* Four movies are activated in four theatres with four shows for the current day only. Program is auto-scheduled for this.  
-* If current timing exceeds any show timing's end time, then status is changed to completed and hence,ticket cannot be booked for such shows..
-* If current timing exceeds any show timing's start time but not end time , then that show is running and hence,ticket cannot be booked for such shows.
-* This information is just for smooth usage. Everything is validated, no worry for the users.
-This is enough for sample purpose.
+## Technologies Used
+To build this project, we utilized a combination of modern technologies to ensure efficiency, scalability, and user-friendliness:
+- **SpringBoot**: Providing a robust framework for building and deploying Java-based applications.
+- **Java**: The primary programming language for backend development.
+- **Git**: Version control system for collaborative development.
+- **HTML, CSS, Bootstrap**: Crafting the visual elements and ensuring a responsive design.
+
+## Features
+Our Movie Ticket Booking System comes equipped with the following features to enhance the user experience:
+- **Browse Active Movies**: Users can view all currently active movies available for booking.
+- **Seat Selection**: Customers have the freedom to choose their preferred seats based on availability.
+- **Validation**: The system is thoroughly validated to ensure smooth functioning and eliminate errors.
+
+## Preview
+Explore a glimpse of our system through these preview images:
+
+![Preview 1](https://user-images.githubusercontent.com/112768196/205480789-a5ff4ac0-6090-49be-b00f-d280084b7e20.png)
+![Preview 2](https://user-images.githubusercontent.com/112768196/205480811-b27b0670-ed1d-4623-a5ba-250189b6498e.png)
+
+## Database
+For demonstration purposes, we've integrated an H2 database (local database) with the application, ensuring accessibility for all users. However, if you prefer using a different database, simply make the relevant changes in the "application.properties" file.
+
+## Sample Data
+To facilitate smooth usage and testing, we've included sample data within the system:
+- **Active Movies**: Four movies are currently activated in four theaters, each with four shows scheduled for the current day. The program is auto-scheduled for convenience.
+- **Show Status**: Show status is dynamically updated based on the current time. Shows that have ended are marked as completed, while those in progress cannot be booked.
+- **Validation**: Rest assured, all data is validated to maintain system integrity and user satisfaction.
+
+Feel free to explore and customize our Movie Ticket Booking System according to your needs. Happy coding!
+
+---
+
+Feel free to tweak or add anything according to your preferences!
